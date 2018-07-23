@@ -1,0 +1,21 @@
+{
+  "name": "b4-react-context",
+  "version": "1.0.0",
+  "description": "- use `create-react-app`\r - Full Stack React with `express`\r - simple api call with `axios`\r - setting up npm scripts in our `package.json`\r - using `concurrently` and `nodemon` in development\r - setting up a proxy on our frontend\r - using `setState`\r - using React's Context feature",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix example",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0",
+    "nodemon": "^1.18.3"
+  }
+}
